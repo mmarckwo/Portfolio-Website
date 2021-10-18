@@ -1,4 +1,4 @@
-let main = `<div class="header2">
+let main = `<div class="header2"> 
 <h1>Hello</h1>
 <p>Welcome to my site.</p>
 </div>
