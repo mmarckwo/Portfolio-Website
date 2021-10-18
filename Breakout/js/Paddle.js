@@ -1,11 +1,3 @@
-/*
-
-    N220 Section 26446
-    Michael Marckwordt
-    Week 15 Lecture
-    April 29, 2021
-
-*/
 
 /*
     Paddle.js

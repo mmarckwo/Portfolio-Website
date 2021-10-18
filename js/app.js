@@ -9,7 +9,7 @@ let main = `<div class="header2">
     <br><br>The buttons at the top will show you some of the stuff I've made. 
     <br>I have experience with Unreal Engine 4, JavaScript, and a touch of Unity.
     <br><br>This website was designed and developed by me. I know some HTML and CSS too. 
-    <br>Website Repo: [INSERT LINK]
+    <br>Website Repo: <a href="https://github.com/mmarckwo/Portfolio-Website">https://github.com/mmarckwo/Portfolio-Website</a>
 </p>
 </div>`;
 
@@ -169,7 +169,7 @@ let breakout = `<div class="header3">
 <p class="text">
 The colors generated for each brick is random every new round.
 <br>Refresh the page to restart.
-<br>Source code: [INSERT LINK]
+<br>Source code: <a href="https://github.com/mmarckwo/Portfolio-Website/tree/main/Breakout/js">https://github.com/mmarckwo/Portfolio-Website/tree/main/Breakout/js</a>
 <br><br>Controls: Left Arrow and Right Arrow to move. 
 <br>Click the button below to play in your browser!
 </p>
