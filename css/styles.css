@@ -16,6 +16,10 @@ h1 {
   font-size: 13px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main {
   max-width: 980px;
   background-color: rgb(225, 225, 225);
@@ -97,6 +101,17 @@ nav {
   background-image: linear-gradient(
     25deg,
     rgb(155, 160, 255),
+    rgba(22, 160, 160, 0.4)
+  );
+  padding: 20px;
+  padding-top: 15px;
+  border-radius: 25px;
+}
+
+.header7 {
+  background-image: linear-gradient(
+    25deg,
+    rgb(225, 125, 190),
     rgba(22, 160, 160, 0.4)
   );
   padding: 20px;

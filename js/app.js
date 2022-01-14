@@ -253,7 +253,39 @@ A scroll through the game's current actors and blueprinting.
 </p>
 <p class="text">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2E_S2p02qyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>`;
+</p>`; 
+
+let multiplayerUnity = `<div class="header7">
+<h1>Multiplayer Unity Game</h1>
+<p>3 players against 1.</p>
+</div>
+
+<div>
+<p class="text">
+This game was made by a team of 4 members (including myself). 
+<br>It's a game where 3 players need to outrun and defend themselves from the 1 enemy player. 
+The enemy player has to chase and catch the running players, but the running players can use traps and doors to slow the chasing player down. 
+The buttons are only on one side of the door, so you're able to cut off players who are chasing you.
+<br>The game was networked using Photon Engine. 
+</p>
+
+<h1>My Contribution</h1>
+<p class="text">
+I developed the doors in this game. Every door is tied to a button that opens and closes the door. 
+The button is green when the door is open, and turns red when it's closed. 
+The buttons and doors are networked so that the toggle occurs in every player's instance of the game; players can see other players opening and closing doors. 
+<br><br>I also sourced all the audio in this game, both the sound effects and the music (though I did not implement them).
+<br>The music is from <a href="https://incompetech.com/"><b>incompetech.com</b></a> 
+and the sound effects were taken from <a href="https://freesound.org/"><b>freesound.org</b></a>
+</p>
+
+<h1>Showcase</h1>
+<p class="text">
+Gameplay footage. Again, the door functionality was made by me, and all of the sounds and music were found by me. 
+<br>(My voice is not present in this. Commentary is provided by the other 3 team members.)
+</p>
+<p class="text"><iframe width="560" height="315" src="https://www.youtube.com/embed/L1-eNgiVVGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>`;
 
 function init() {
     // click listener.
