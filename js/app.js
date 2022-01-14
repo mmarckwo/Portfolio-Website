@@ -285,7 +285,7 @@ Gameplay footage. Again, the door functionality was made by me, and all of the s
 <br>(Gameplay begins at 1:26. Also, my voice is not present in this. Commentary is provided by the other 3 team members.)
 </p>
 <p class="text"><iframe width="560" height="315" src="https://www.youtube.com/embed/L1-eNgiVVGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-</div>`; //awe
+</div>`;
 
 function init() {
     // click listener.
