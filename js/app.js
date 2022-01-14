@@ -159,7 +159,7 @@ The above image on the right shows three cards being combined to create a new ca
 These issues were overcame through frequent testing and iterating. If some cards were more powerful than others, I would adjust the card appropriately. 
 <br><br>The winning conditions were play tested to see if a player could unfairly win, and in the end the best results of winning were to either be the last player standing or by having the most spaced claimed spaces at the end of the game. That way, aggressive players won't be able to steal wins every game if there is more than one way to win.
 <br><br>Deciding player movement was the most difficult part. I initially had it too complex by needing to consider the size of a group to determine how many spaces they could move, but in the end a simple dice roll was sufficient to stop it from being too confusing.
-</p>`;
+</p>`; //hi.
 
 let breakout = `<div class="header3">
 <h1>Breakout JS</h1>
