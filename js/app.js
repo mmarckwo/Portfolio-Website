@@ -5,7 +5,7 @@ let main = `<div class="header2">
 <div>
 <p class="text">
     My name is Michael. I am a developer who specializes in designing and creating games. I'm also working on obtaining a multi-device web certificate. It means that I can make my own websites. 
-    <br>I am a student at Indiana University Purdue University Indianapolis at the School of Informatics and Computing. 
+    <br><br>My education experience consists of being a student at Indiana University Purdue University Indianapolis at the School of Informatics and Computing. 
     <br><br>The buttons at the top will show you some of the stuff I've made. 
     <br>I have experience with Unreal Engine 4, Unity, and JavaScript.
     <br><br>This website was designed and developed by me. Again, I know some HTML and CSS. 
