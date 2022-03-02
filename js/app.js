@@ -1,17 +1,21 @@
-let main = `<div class="header2"> 
+let main = `<div class="header2">
 <h1>Hello</h1>
 <p>Welcome to my site.</p>
 </div>
 <div>
 <p class="text">
-    My name is Michael. I am a developer who specializes in designing and creating games. I'm also working on obtaining a multi-device web certificate. It means that I can make my own websites. 
+    My name is Michael. I am a developer who specializes in designing and creating games. 
+    I'm also working on obtaining a multi-device web certificate. 
+    It means that I can make my own websites. 
     <br>My education experience consists of being a student at Indiana University Purdue University Indianapolis at the School of Informatics and Computing. 
-    <br><br>The buttons at the top will show you some of the stuff I've made. 
+    <br><br>The navigation at the top will show you some of the stuff I've made. 
     <br>I have experience with Unreal Engine 4, Unity, and JavaScript.
     <br><br>This website was designed and developed by me. Again, I know some HTML and CSS. 
     <br>Website Repo: <a href="https://github.com/mmarckwo/Portfolio-Website">https://github.com/mmarckwo/Portfolio-Website</a>
 </p>
 </div>`;
+
+let projects = `ok`;
 
 let design = `<div class="header6">
 <h1>Design Journal</h1>
@@ -87,6 +91,8 @@ These are admittedly crude drawings, but hopefully they get the point across.
 <p class="small-text">A dangerous and isolated land.</p>
 <p class="text">You are an intern who was sent off to investigate strange occurrences up in the north. Bizarre and dangerous worm-like creatures have begun appearing there, and scans of the area indicate that unknown devices have shown up too. Set off into a desolate land of ice and water, and discover the truth behind these new events. It's a precarious task someone as new as you, but none of the experienced researchers seem willing to do the job...</p>
 </div>`;
+
+let contact = `email.com use .header4 the yellow one`;
 
 let MoA = `<div class="header">
 <h1>Mix of Ages</h1>
