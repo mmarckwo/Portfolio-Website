@@ -63,6 +63,7 @@ body {
   /* background-color: blue; */
   color: white;
   align-self: center;
+  margin-right: 0.5em;
 }
 
 .top-bar nav {
