@@ -301,6 +301,13 @@ function init() {
 
         $("#content").html(eval(btnID));
     });
+    
+    $("#projects a").click(function() {
+        let btnID = this.id;
+        console.log("click", btnID);
+
+        $("#content").html(eval(btnID));
+    });
 }
 
 // checks for all the elements to be read by the browser.

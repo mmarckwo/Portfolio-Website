@@ -417,6 +417,16 @@ body {
   margin-top: 2em;
   margin-bottom: 2em;
   margin-right: 2em;
+  background-color: #90b494;
+  border-radius: 15px;
+}
+
+.img-txt {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 0.5em;
+  font-size: 1.5em;
 }
 
 /* right margin only on left icon. */
