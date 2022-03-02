@@ -1,13 +1,12 @@
-body {
-  background-color: rgb(240, 240, 240);
-}
-
 h1 {
   font-family: "Rubik", sans-serif;
 }
 
 .text {
-  margin-left: 10px;
+  /* margin-left: 10px; */
+  background-color: white;
+  border-radius: 25px;
+  padding: 20px;
   /* background-color: gray; */
 }
 
@@ -22,6 +21,7 @@ a {
 
 body {
   background-color: rgb(180, 180, 180);
+  /* background-color: #C34DB1; */
 }
 
 .main {
@@ -41,12 +41,13 @@ body {
   padding-left: 1em;
   padding-right: 1em;
   margin-bottom: 1.5em;
-  background-color: lightblue;
+  background-color: #4db1c3;
   border-radius: 2em;
 }
 
 .top-bar h1 {
   /* background-color: blue; */
+  /* color: #c35f4d; */
   align-self: center;
 }
 
@@ -184,7 +185,7 @@ body {
   /* border-radius: 20px; */
   text-decoration: none;
   /* background-color: rgb(160, 160, 160); */
-  border-right: solid black 2px;
+  border-right: solid rgb(50, 50, 50) 2px;
   color: white;
   margin: 2px;
   padding: 0px 20px;
@@ -196,19 +197,22 @@ body {
 }
 
 .main nav .links a:hover {
-  text-decoration: none;
+  color: #d3f31d;
+  font-weight: lighter;
+  /* text-decoration: none;
   background-color: rgb(125, 125, 125);
-  color: white;
   margin: 2px;
-  padding: 20px;
+  padding: 20px; */
 }
 
 .main nav .links a:active {
-  text-decoration: none;
+  font-weight: bold;
+
+  /* text-decoration: none;
   background-color: rgb(90, 90, 90);
   color: white;
   margin: 2px;
-  padding: 20px;
+  padding: 20px; */
 }
 
 .image {
@@ -332,11 +336,10 @@ font-family: "Overpass", sans-serif; */
 
   .main nav .links a {
     margin: 1em 0em;
-    border-right: solid black 2px;
   }
 
   /* add back right border on the last child. */
   .main nav .links a:last-child {
-    border-right: solid black 2px;
+    border-right: solid rgb(50, 50, 50) 2px;
   }
 }
