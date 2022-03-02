@@ -9,9 +9,11 @@ let main = `<div class="header2">
     It means that I can make my own websites. 
     <br>My education experience consists of being a student at Indiana University Purdue University Indianapolis at the School of Informatics and Computing. 
     <br><br>The navigation at the top will show you some of the stuff I've made. 
-    <br>I have experience with Unreal Engine 4, Unity, and JavaScript.
+    <br>I have experience with Unreal Engine 4, Unity, and JavaScript. 
+    <br>I have an itch.io page. There isn't much on it right now, but I'll post my content there when I have finished game projects that are ready to present. 
+    <br><a href="https://borkens.itch.io"><b>itch.io Page</b></a>
     <br><br>This website was designed and developed by me. Again, I know some HTML and CSS. 
-    <br>Website Repo: <a href="https://github.com/mmarckwo/Portfolio-Website">https://github.com/mmarckwo/Portfolio-Website</a>
+    <br>Website Repo: <a href="https://github.com/mmarckwo/Portfolio-Website"><b>https://github.com/mmarckwo/Portfolio-Website</b></a>
 </p>
 </div>`;
 
@@ -134,7 +136,17 @@ These are admittedly crude drawings, but hopefully they get the point across.
 <p class="text">You are an intern who was sent off to investigate strange occurrences up in the north. Bizarre and dangerous worm-like creatures have begun appearing there, and scans of the area indicate that unknown devices have shown up too. Set off into a desolate land of ice and water, and discover the truth behind these new events. It's a precarious task someone as new as you, but none of the experienced researchers seem willing to do the job...</p>
 </div>`;
 
-let contact = `email.com use .header4 the yellow one`;
+let contact = `<div class="header4">
+<h1>Contact</h1>
+<p>Say hello.</p>
+</div>
+<div>
+<p class="text">
+    If you want to send me a message about something, you can email me at: 
+    <br><b>michaelmarckwordt [at] gmail [dot] com</b> 
+    <br>I'll get back to you as soon as I can.
+</p>
+</div>`;
 
 let MoA = `<div class="header">
 <h1>Mix of Ages</h1>
