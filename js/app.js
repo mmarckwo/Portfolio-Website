@@ -15,7 +15,49 @@ let main = `<div class="header2">
 </p>
 </div>`;
 
-let projects = `ok`;
+let projects = `<div class="header5">
+<h1>Projects</h1>
+<p>Some stuff that I've worked on.<br>Updates over time.</p>
+</div>
+<div>
+<div class="text" id="projects">
+    <div class="split-row">
+        <div class="icon-image">
+            <a id="MoA" href="#">
+                <img src="icon-images/map-crop.png"></img>
+                <div class="img-txt">Mix of Ages</div>
+            </a>
+        </div>
+        <div class="icon-image">
+            <a id="breakout" href="#">
+                <img src="icon-images/breakout.png">
+                <div class="img-txt">Breakout</div>
+            </a>
+        </div>
+    </div>
+    <div class="split-row">
+        <div class="icon-image">
+            <a id="firstUE4" href="#">
+                <img src="icon-images/1ue4.png"></img>
+                <div class="img-txt">First Unreal Engine 4 Project</div>
+            </a>
+        </div>
+        <div class="icon-image">
+            <a id="personalUE4" href="#">
+                <img src="icon-images/pue4.png"></img>
+                <div class="img-txt">Personal Unreal Engine 4 Project</div>
+            </a>
+        </div>
+    </div>
+    <div class="split-row">
+        <div class="icon-image">
+            <a id="multiplayerUnity" href="#">
+                <img src="icon-images/group-unity.png"></img>
+                <div class="img-txt">Multiplayer Unity Game</div>
+            </a>
+        </div>
+    </div>
+</div>`;
 
 let design = `<div class="header6">
 <h1>Design Journal</h1>
@@ -299,9 +341,19 @@ function init() {
         let btnID = this.id;
         console.log("click", btnID);
 
+        if(btnID == "projects") {
+            $("#projects").ready(function() {
+                console.log("projects page is ready");
+                projectClicker();
+            })
+        }
+
         $("#content").html(eval(btnID));
     });
-    
+}
+
+// listen to clicks on projects page.
+function projectClicker() {
     $("#projects a").click(function() {
         let btnID = this.id;
         console.log("click", btnID);
