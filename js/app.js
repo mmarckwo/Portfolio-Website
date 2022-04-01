@@ -58,6 +58,12 @@ let projects = `<div class="header5">
                 <div class="img-txt">Multiplayer Unity Game</div>
             </a>
         </div>
+        <div class="icon-image">
+            <a id="spellgrounds" href="#">
+                <img src="icon-images/spellgrounds.png"></img>
+                <div class="img-txt">Spellgrounds (Multiplayer)</div>
+            </a>
+        </div>
     </div>
 </div>`;
 
@@ -345,6 +351,48 @@ Gameplay footage. Again, the door functionality was made by me, and all of the s
 <br>(Gameplay begins at 1:26. Also, my voice is not present in this. Commentary is provided by the other 3 team members.)
 </p>
 <p class="text"><iframe width="560" height="315" src="https://www.youtube.com/embed/L1-eNgiVVGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>`;
+
+let spellgrounds = `<div class="header5">
+<h1>Spellgrounds</h1>
+<p>An online 2-player 1v1 arena battle.</p>
+</div>
+
+<div>
+<p class="text">
+This game was made primarily by me, in Unity, with a level contribution by a team member. 
+<br>It's a game where two players battle each other with spells to defeat the other player. Players earn points by killing the other player or pushing them off the arena. The first player to 3 points wins. 
+<br>Players can cast 3 different spells. 
+<ul>
+    <li>Attack Spell: A basic attack. Hit the other player to decrease their HP.</li>
+    <li>Impulse Spell: Pushes the hit player back with a strong force.</li>
+    <li>Speed Spell: Increase the hit player's speed. Use this to make the other player slip off with their gradually increasing speed.</li>
+</ul>
+The game's networking was done by using Photon Engine. 
+</p>
+
+<h1>My Work</h1>
+<p class="text">
+I created the player controller and the player camera. I also created the spells and their effects on the other player. The items in levels and the menus were made by me as well. The sky level that appears in the first part of the video below was created by me. I made my own simple models with Blender and imported them to make a basic arena level. 
+<br>The online networking for the game was done by me. I had to adapt the game so that each player can host and join a room and control their own character. They're also able to attack the other player. The scoring system used in game is updated by both players and tells which player won and lost after one of them gets to three points. 
+<br>I am responsible for all of the scripting for the game. 
+<br><br>I also sourced and added all audio in the game, which includes sounds and music.
+<br>The music is from <a href="https://incompetech.com/"><b>incompetech.com</b></a> 
+and the sound effects were taken from <a href="https://freesound.org/"><b>freesound.org</b></a>
+
+<br><br>
+The scripts I made can be found here: 
+<a href="https://github.com/mmarckwo/N330SpellgroundsReal/tree/main/Assets/mmarckwo/Scripts">
+    <b>https://github.com/mmarckwo/N330SpellgroundsReal/tree/main/Assets/mmarckwo/Scripts</b>
+</a>
+</p>
+
+<h1>Showcase</h1>
+<p class="text">
+Side-by-side gameplay footage of one player battling another player. Gameplay and recordings taken from separate computers.  
+<br>(Audio comes from player on the left.)
+</p>
+<p class="text"><iframe width="560" height="315" src="https://www.youtube.com/embed/TeckdV770Mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>`;
 
 function init() {
