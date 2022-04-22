@@ -11,9 +11,9 @@ let main = `<div class="header2">
     <br><br>The navigation at the top will show you some of the stuff I've made. 
     <br>I have experience with Unreal Engine 4, Unity, and JavaScript. 
     <br>I have an itch.io page. There isn't much on it right now, but I'll post my content there when I have finished game projects that are ready to present. 
-    <br><a href="https://borkens.itch.io"><b>itch.io Page</b></a>
+    <br><a href="https://borkens.itch.io" target="_blank"><b>itch.io Page</b></a>
     <br><br>This website was designed and developed by me. Again, I know some HTML and CSS. 
-    <br>Website Repo: <a href="https://github.com/mmarckwo/Portfolio-Website"><b>https://github.com/mmarckwo/Portfolio-Website</b></a>
+    <br>Website Repo: <a href="https://github.com/mmarckwo/Portfolio-Website" target="_blank"><b>https://github.com/mmarckwo/Portfolio-Website</b></a>
 </p>
 </div>`;
 
@@ -62,6 +62,20 @@ let projects = `<div class="header5">
             <a id="spellgrounds" href="#">
                 <img src="icon-images/spellgrounds.png"></img>
                 <div class="img-txt">Spellgrounds (Multiplayer)</div>
+            </a>
+        </div>
+    </div>
+    <div class="split-row">
+        <div class="icon-image">
+            <a id="grimPickings" href="#">
+                <img src="icon-images/gp.png"></img>
+                <div class="img-txt">Grim Pickings (WIP)</div>
+            </a>
+        </div>
+        <div class="icon-image">
+            <a id="imcuPrototype" href="#">
+                <img src="icon-images/board-preview.png"></img>
+                <div class="img-txt">IMCU Board Game (Prototype)</div>
             </a>
         </div>
     </div>
@@ -235,7 +249,7 @@ let breakout = `<div class="header3">
 <p class="text">
 The colors generated for each brick is random every new round.
 <br>Refresh the page to restart.
-<br>Source code: <a href="https://github.com/mmarckwo/Portfolio-Website/tree/main/Breakout/js">https://github.com/mmarckwo/Portfolio-Website/tree/main/Breakout/js</a>
+<br>Source code: <a href="https://github.com/mmarckwo/Portfolio-Website/tree/main/Breakout/js" target="_blank">https://github.com/mmarckwo/Portfolio-Website/tree/main/Breakout/js</a>
 <br><br>Controls: Left Arrow and Right Arrow to move. 
 <br>Click the button below to play in your browser!
 </p>
@@ -341,8 +355,8 @@ I developed the doors in this game. Every door is tied to a button that opens an
 The button is green when the door is open, and turns red when it's closed. 
 The buttons and doors are networked so that the toggle occurs in every player's instance of the game; players can see other players opening and closing doors. 
 <br><br>I also sourced all the audio in this game, both the sound effects and the music (though I did not implement them).
-<br>The music is from <a href="https://incompetech.com/"><b>incompetech.com</b></a> 
-and the sound effects were taken from <a href="https://freesound.org/"><b>freesound.org</b></a>
+<br>The music is from <a href="https://incompetech.com/" target="_blank"><b>incompetech.com</b></a> 
+and the sound effects were taken from <a href="https://freesound.org/" target="_blank"><b>freesound.org</b></a>
 </p>
 
 <h1>Showcase</h1>
@@ -360,40 +374,76 @@ let spellgrounds = `<div class="header5">
 
 <div>
 <p class="text">
-This game was made primarily by me, in Unity, with a level contribution by a team member. 
+This game was made primarily by me, in Unity, with some code contributions by another team member. 
 <br>It's a game where two players battle each other with spells to defeat the other player. Players earn points by killing the other player or pushing them off the arena. The first player to 3 points wins. 
 <br>Players can cast 3 different spells. 
 <ul>
-    <li>Attack Spell: A basic attack. Hit the other player to decrease their HP.</li>
-    <li>Impulse Spell: Pushes the hit player back with a strong force.</li>
-    <li>Speed Spell: Increase the hit player's speed. Use this to make the other player slip off with their gradually increasing speed.</li>
+    <li>(Red) Attack Spell: A basic attack. Hit the other player to decrease their HP.</li>
+    <li>(Light yellow) Impulse Spell: Pushes the hit player back with a strong force.</li>
+    <li>(Blue) Speed Spell: Increase the hit player's speed. Use this to make the other player slip off with their gradually increasing speed.</li>
 </ul>
 The game's networking was done by using Photon Engine. 
 </p>
 
 <h1>My Work</h1>
 <p class="text">
-I created the player controller and the player camera. I also created the spells and their effects on the other player. The items in levels and the menus were made by me as well. The sky level that appears in the first part of the video below was created by me. I made my own simple models with Blender and imported them to make a basic arena level. 
+I created most of the player controller and the player camera. I also created the spells and their effects on the other player. The items in levels and the menus were made by me as well. The sky level that appears in the video below was created by me. I made my own simple models with Blender and imported them to make a basic arena level. 
 <br>The online networking for the game was done by me. I had to adapt the game so that each player can host and join a room and control their own character. They're also able to attack the other player. The scoring system used in game is updated by both players and tells which player won and lost after one of them gets to three points. 
-<br>I am responsible for all of the scripting for the game. 
+<br>I am responsible for a majority of the scripting in the game. 
 <br><br>I also sourced and added all audio in the game, which includes sounds and music.
-<br>The music is from <a href="https://incompetech.com/"><b>incompetech.com</b></a> 
-and the sound effects were taken from <a href="https://freesound.org/"><b>freesound.org</b></a>
+<br>The music is from <a href="https://incompetech.com/" target="_blank"><b>incompetech.com</b></a> 
+and the sound effects were taken from <a href="https://freesound.org/" target="_blank"><b>freesound.org</b></a>
 
 <br><br>
 The scripts I made can be found here: 
-<a href="https://github.com/mmarckwo/N330SpellgroundsReal/tree/main/Assets/mmarckwo/Scripts">
-    <b>https://github.com/mmarckwo/N330SpellgroundsReal/tree/main/Assets/mmarckwo/Scripts</b>
+<a href="https://github.com/mmarckwo/N330SpellgroundsReal/tree/main/Assets/script" target="_blank">
+    <b>https://github.com/mmarckwo/N330SpellgroundsReal/tree/main/Assets/script</b>
 </a>
 </p>
 
 <h1>Showcase</h1>
 <p class="text">
-Side-by-side gameplay footage of one player battling another player. Gameplay and recordings taken from separate computers.  
+Side-by-side gameplay footage of one player battling another player. I recorded this by myself by launching the game twice and letting both players join and play via networking. This video more shows off features rather than actual gameplay.
 <br>(Audio comes from player on the left.)
 </p>
-<p class="text"><iframe width="560" height="315" src="https://www.youtube.com/embed/TeckdV770Mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p class="text"><iframe width="560" height="315" src="https://www.youtube.com/embed/LgsJmsyl628" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>`;
+
+let grimPickings = `<div class="header2">
+<h1>Grim Pickings (Work in Progress)</h1>
+<p>A digital adaption of a class board game project.</p>
+</div>
+
+<div>
+<p class="text">
+Grim Pickings is a board game developed by a team of 14 students. There are groups dedicated to certain aspects of game development, and I am on the tech development team along with 3 other members. Our team is responsible for creating a digital version of the game so that it can be played on a large touchscreen table at a convention. However, we also wanted to do a bit more than that. We looked into experimental technology that could make for an enticing booth at the convention, and we found hand tracking tech from Ultraleap. We ordered a few hand tracking cameras (Leap Motion Controllers) and got to work implementing new tech into our game.
+
+<h1>My Work</h1>
+<p class="text">
+I had to learn how to use a Leap Motion Controller with Unity. There are not many resources available online on how to use the controller in the way we wanted, so I had to thoroughly examine the official documentation for it and figure out how to read data from it in Unity. Once I got it working, I added a masked render texture to the UI so that players are able to see their own hands as the camera detects them. When the player needs to roll the dice, they can do a hand gesture to roll. When the player digs up a card from one of the card spots, they can do a hand gesture to pull the card into their inventory.
+<br><br>I also added functionality for the player to pick up parts. It is not implemented into the main game yet, but in one of the videos below, you can see it working in a test scene. The button runs a function to pick a random part from a list of body parts and adds the associated image and stats onto the player. Body parts that are replaced have their stats replaced as well by the new part.
+</a>
+
+<p class="text">The scripting for the game isn't publicly available at this moment, but I can show a snippet of simple code that reads and uses hand tracking data.
+<div class="general-image"><img src="images/hand-motion-code-example.png"></div>
+</p>
+
+<h1>Showcase (Hand Tracking)</h1>
+<p class="text">
+This video shows hand tracking functionality as explained above. Players can see their own hands when it is detected by the camera, and they can use hand gestures to roll the dice and to store cards into their inventory. The console in the video shows when hand gestures are being awaited for and when they are detected.
+<br>(The game in the video is not complete yet, so there are some placeholder assets being used.)
+</p>
+<p class="text"><iframe width="560" height="315" src="https://www.youtube.com/embed/tJWRqrfRKTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+<h1>Showcase (Body Picker)</h1>
+<p class="text">
+This short video shows a test scene for functionality for adding body parts onto the character. When the button is clicked, a random part is selected from a large list of body parts, the player recieves the part, reads what kind of body part is it, then adds it to the appropriate limb and adds up the total stats. In the console, you can see the name of the body part, where on the body it goes, and the health, attack, and speed stats of that part.
+<br>(The official art assets have not been created yet, so placeholder images are used instead.)
+</p>
+<p class="text"><iframe width="560" height="315" src="https://www.youtube.com/embed/iqGBCC2ivqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>`;
+
+let imcuPrototype = ``;
 
 function init() {
     // click listener.

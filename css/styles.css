@@ -6,6 +6,11 @@
 #545775 - Independence 
 */
 
+body {
+  width: 75%;
+  margin: 0 auto;
+}
+
 h1 {
   font-family: "Rubik", sans-serif;
 }
@@ -412,6 +417,18 @@ body {
   object-fit: cover;
 }
 
+.general-image { 
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+.general-image img {
+  border-radius: 1em;
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
 .icon-image {
   max-width: 500px;
   max-height: 500px;
@@ -466,8 +483,12 @@ font-family: "Overpass", sans-serif; */
   }
 }
 
-/* change positioning of nav bar buttons */
+/* change positioning of nav bar buttons and body size*/
 @media only screen and (max-width: 675px) {
+  body {
+    width: auto;
+  }
+
   .top-bar {
     align-items: stretch;
   }
