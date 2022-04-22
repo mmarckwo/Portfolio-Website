@@ -437,13 +437,47 @@ This video shows hand tracking functionality as explained above. Players can see
 
 <h1>Showcase (Body Picker)</h1>
 <p class="text">
-This short video shows a test scene for functionality for adding body parts onto the character. When the button is clicked, a random part is selected from a large list of body parts, the player recieves the part, reads what kind of body part is it, then adds it to the appropriate limb and adds up the total stats. In the console, you can see the name of the body part, where on the body it goes, and the health, attack, and speed stats of that part.
+This short video shows a test scene for functionality for adding body parts onto the character. When the button is clicked, a random part is selected from a large list of body parts, the player recieves the part, reads what kind of body part is it, then adds it to the appropriate limb and adds up the total stats. 
+<br>In the console, you can see the name of the body part, where on the body it goes, and the health, attack, and speed stats of that part. 
+<br>Arms and legs are randomly assigned to either the left or right side.
 <br>(The official art assets have not been created yet, so placeholder images are used instead.)
 </p>
 <p class="text"><iframe width="560" height="315" src="https://www.youtube.com/embed/iqGBCC2ivqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>`;
 
-let imcuPrototype = ``;
+let imcuPrototype = `<div class="header">
+<h1>IMCU Board Game</h1>
+<p>A digital board game for a credit union about financial literacy.</p>
+</div>
+
+<div>
+<p class="text">
+I worked in a team of 3 other members to create a prototype of a game for Indiana Members Credit Union (IMCU). This was my first time working with a real-world client. We communicated regularly with the client to come up with a game to suit their needs. They wanted an educational game to teach people around ages 18 - 25 financial literacy.
+<br><br>What we came up with is a mobile app board game that can be played between 2 - 4 players. Players have to travel to the end of the board whilst making wise financial decisions, avoiding debt, and staying out of jail. Players have to manage their money between their savings and checking accounts and keep themselves safe from loan sharks and other scams. At some spots on the board, a player will receive a scenario card. The scenario card describes a scene and the player has to choose between actions to take for the scenario. Players have to use their best judgement to determine what the best option is. Will they make the right choice? 
+<br><br>Scenario cards are based off of events that are likely to happen in the real world. They're meant to make players recognize what good and bad opportunities look like and what the consequences of their decisions could lead to. The managment of a savings and checking account in the game also familiarizes inexperienced players with operating such accounts and how they work.
+</p>
+
+<h1>My Work</h1>
+<p class="text">
+This project was focused on design work. I worked with my team to create the game concept and the game rules. I made the gameplay design for the prototype, which can be viewed in the section below. I contributed some scenario cards and game mechanics regarding checking and savings accounts. 
+<br>A sample of those contents can be viewed here: <b><a href="https://docs.google.com/document/d/155Ok_BknOdKmegogWuK366TEL3pnqhFkdSNUycxizA8/edit?usp=sharing" target="_blank">Google Doc Sample</a></b>
+<br>The layout of the prototype looks like this: <div class="general-image"><img src="images/prototype_preview.png"></div> 
+</p>
+<p class="text">
+To get a better look of the prototype and to go through it, please check the section below.
+</p>
+
+<h1>Showcase</h1>
+<p class="text">
+Here is a link to the prototype made in Adobe Xd. Because it is a prototype, it uses fixed choices and outcomes.
+<br><br>(Note: The "View & Pay Debts" button is clickable on player 1's 2nd turn. The "Transfer" button is clickable on player 2's 2nd turn.) 
+<br>(I did not create the background art of the board.)
+<br><br>
+<b>
+<a href="https://xd.adobe.com/view/d690fce1-b599-4898-a800-70e5d3dd3bda-83c3/" target="_blank">https://xd.adobe.com/view/d690fce1-b599-4898-a800-70e5d3dd3bda-83c3/</a>
+</b>
+</p>
+</div>`;
 
 function init() {
     // click listener.
