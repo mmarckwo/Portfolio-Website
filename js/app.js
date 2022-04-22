@@ -249,7 +249,7 @@ let breakout = `<div class="header3">
 <p class="text">
 The colors generated for each brick is random every new round.
 <br>Refresh the page to restart.
-<br>Source code: <a href="https://github.com/mmarckwo/Portfolio-Website/tree/main/Breakout/js" target="_blank">https://github.com/mmarckwo/Portfolio-Website/tree/main/Breakout/js</a>
+<br>Source code: <b><a href="https://github.com/mmarckwo/Portfolio-Website/tree/main/Breakout/js" target="_blank">https://github.com/mmarckwo/Portfolio-Website/tree/main/Breakout/js</a></b>
 <br><br>Controls: Left Arrow and Right Arrow to move. 
 <br>Click the button below to play in your browser!
 </p>
