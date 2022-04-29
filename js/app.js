@@ -388,14 +388,14 @@ The game's networking was done by using Photon Engine.
 <h1>My Work</h1>
 <p class="text">
 I created most of the player controller and the player camera. I also created the spells and their effects on the other player. The items in levels and the menus were made by me as well. The sky level that appears in the video below was created by me. I made my own simple models with Blender and imported them to make a basic arena level. 
-<br>The online networking for the game was done by me. I had to adapt the game so that each player can host and join a room and control their own character. They're also able to attack the other player. The scoring system used in game is updated by both players and tells which player won and lost after one of them gets to three points. 
-<br>I am responsible for a majority of the scripting in the game. 
+<br>The online networking for the game was done by me. Players can join a lobby that shows the rooms that are open to join. When a player makes a room, it appears in the room list. Then, any player is able to click that room and join that player's lobby. Players are also properly designated as the host or client player. Players get to control their own character. They're also able to attack the other player. The scoring system used in game is updated by both players and tells which player won and lost after one of them gets to three points. 
+<br>I am responsible for most of the scripting in the game. 
 <br><br>I also sourced and added all audio in the game, which includes sounds and music.
 <br>The music is from <a href="https://incompetech.com/" target="_blank"><b>incompetech.com</b></a> 
 and the sound effects were taken from <a href="https://freesound.org/" target="_blank"><b>freesound.org</b></a>
 
 <br><br>
-The scripts I made can be found here: 
+The scripts I worked on can be found here: 
 <a href="https://github.com/mmarckwo/N330SpellgroundsReal/tree/main/Assets/script" target="_blank">
     <b>https://github.com/mmarckwo/N330SpellgroundsReal/tree/main/Assets/script</b>
 </a>
@@ -403,10 +403,10 @@ The scripts I made can be found here:
 
 <h1>Showcase</h1>
 <p class="text">
-Side-by-side gameplay footage of one player battling another player. I recorded this by myself by launching the game twice and letting both players join and play via networking. This video more shows off features rather than actual gameplay.
-<br>(Audio comes from player on the left.)
+Side-by-side gameplay footage of one player battling another player. This was recorded on two separate computers and then they had their recordings merged into one video. 
+<br>(Audio comes from player on the right.)
 </p>
-<p class="text"><iframe width="560" height="315" src="https://www.youtube.com/embed/LgsJmsyl628" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p class="text"><iframe width="560" height="315" src="https://www.youtube.com/embed/2YU_X8NuFX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>`;
 
 let grimPickings = `<div class="header2">
