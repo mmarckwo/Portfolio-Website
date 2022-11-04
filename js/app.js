@@ -5,14 +5,13 @@ let main = `<div class="header2">
 <div>
 <p class="text">
     My name is Michael. I am a developer who specializes in designing and creating games. 
-    I'm also working on obtaining a multi-device web certificate. 
-    It means that I can develop my own websites. 
+    I also have a multi-device web certificate. It means I have experience creating websites using HTML, CSS, JavaScript, JQuery, and Sass. I've made native mobile apps using Angular and the Ionic framework as well. 
     <br>My education experience consists of being a student at Indiana University Purdue University Indianapolis at the School of Informatics and Computing. 
     <br><br>The navigation at the top will show you some of the stuff I've made. 
-    <br>I have experience with Unreal Engine 4, Unity, and JavaScript. 
-    <br>I have an itch.io page. There isn't much on it right now, but I'll post my content there when I have finished game projects that are ready to present. 
+    <br>I have primarily have experience Unity, C#, and JavaScript. 
+    <br>I have an itch.io page. There isn't much on it right now, but I'll post my content there when I have finished game projects that are ready to present. In the meantime, check out my "Projects" page to view my completed unpublished projects. 
     <br><a href="https://borkens.itch.io" target="_blank"><b>itch.io Page</b></a>
-    <br><br>This website was designed and developed by me. Again, I know some HTML and CSS. 
+    <br><br>This website was designed and developed by me. 
     <br>Website Repo: <a href="https://github.com/mmarckwo/Portfolio-Website" target="_blank"><b>https://github.com/mmarckwo/Portfolio-Website</b></a>
 </p>
 </div>`;
@@ -81,80 +80,80 @@ let projects = `<div class="header5">
     </div>
 </div>`;
 
-let design = `<div class="header6">
-<h1>Design Journal</h1>
-<p>Some ideas I have.</p>
-</div>
+// let design = `<div class="header6">
+// <h1>Design Journal</h1>
+// <p>Some ideas I have.</p>
+// </div>
 
-<p class="text">
-These are admittedly crude drawings, but hopefully they get the point across.
-</p>
+// <p class="text">
+// These are admittedly crude drawings, but hopefully they get the point across.
+// </p>
 
-<div class="idea-image">
-<img src="idea-images/den.png">
-</div>
-<p class="small-text">Outside in a desert.</p>
-<p class="text">This shows the layout of an outdoor area and some items that can be collected in the game. I have more information about and a prototype of this project in the '<b>WIP UE4 Level</b>' tab.</p>
+// <div class="idea-image">
+// <img src="idea-images/den.png">
+// </div>
+// <p class="small-text">Outside in a desert.</p>
+// <p class="text">This shows the layout of an outdoor area and some items that can be collected in the game. I have more information about and a prototype of this project in the '<b>WIP UE4 Level</b>' tab.</p>
 
-<div class="idea-image">
-<img src="idea-images/boat.png">
-</div>
-<p class="small-text">Explore an ocean.</p>
-<p class="text">This game would be about collecting parts of a raft to create your own section of a larger raft as a whole. Everyone would then come together to travel to different islands while working with one another. It's meant to be a relaxing and cozy experience.
-<br>I plan to create this using GB Studio.</p>
-</div>
+// <div class="idea-image">
+// <img src="idea-images/boat.png">
+// </div>
+// <p class="small-text">Explore an ocean.</p>
+// <p class="text">This game would be about collecting parts of a raft to create your own section of a larger raft as a whole. Everyone would then come together to travel to different islands while working with one another. It's meant to be a relaxing and cozy experience.
+// <br>I plan to create this using GB Studio.</p>
+// </div>
 
-<div class="idea-image">
-<img src="idea-images/TrainNight.png">
-</div>
-<p class="small-text">A cheap overnight stay.</p>
-<p class="text">The planned story of this game is that you're walking around late at night, and you need to find a place to stay. You come across a placed called the 'Subway Motel' and decide to check it out. Learning of its affordable and convenient price, you stay for the night. When you arrive to your 'room', you see why it was so cheap. Your room is a subway platform with a train that roars by every so often.
-<br>The goal of this game is to balance your belongings onto your platform so that the train that comes by doesn't sweep your stuff away. Each time the train passes, a new round begins. More of your stuff gets added for each new round, so the challenge is to keep everything by the end of the game. 
-<br>This game is based on a dream I had long ago.
-</p>
+// <div class="idea-image">
+// <img src="idea-images/TrainNight.png">
+// </div>
+// <p class="small-text">A cheap overnight stay.</p>
+// <p class="text">The planned story of this game is that you're walking around late at night, and you need to find a place to stay. You come across a placed called the 'Subway Motel' and decide to check it out. Learning of its affordable and convenient price, you stay for the night. When you arrive to your 'room', you see why it was so cheap. Your room is a subway platform with a train that roars by every so often.
+// <br>The goal of this game is to balance your belongings onto your platform so that the train that comes by doesn't sweep your stuff away. Each time the train passes, a new round begins. More of your stuff gets added for each new round, so the challenge is to keep everything by the end of the game. 
+// <br>This game is based on a dream I had long ago.
+// </p>
 
-<div class="idea-image">
-<img src="idea-images/NoTalkCo-op.png">
-</div>
-<p class="small-text">Work together with limited communication abilities.</p>
-<p class="text">The idea for this game is to have two players working together to overcome various challenges. The catch to this is that the players cannot communicate with traditional voice or text chat. They must use the provided in-game solutions, such as stickers to express emotions or ideas, or a rare whiteboard that a player can write on.</p>
+// <div class="idea-image">
+// <img src="idea-images/NoTalkCo-op.png">
+// </div>
+// <p class="small-text">Work together with limited communication abilities.</p>
+// <p class="text">The idea for this game is to have two players working together to overcome various challenges. The catch to this is that the players cannot communicate with traditional voice or text chat. They must use the provided in-game solutions, such as stickers to express emotions or ideas, or a rare whiteboard that a player can write on.</p>
 
-<div class="idea-image">
-<img src="idea-images/board-game.png">
-</div>
-<p class="small-text">A racing board game.</p>
-<p class="text">A board game for 2-4 players. Players start on the lap space, then race to be the first to make 3 laps. Some spaces that are landed on give items that can boost the player or slow down other players. Players move by flicking a triangle on a device that vaguely resembles an RPM gauge. Players who get boosted get to flick an additional boost gauge, while players who are slowed down need to flick an additional drag gauge.</p>
+// <div class="idea-image">
+// <img src="idea-images/board-game.png">
+// </div>
+// <p class="small-text">A racing board game.</p>
+// <p class="text">A board game for 2-4 players. Players start on the lap space, then race to be the first to make 3 laps. Some spaces that are landed on give items that can boost the player or slow down other players. Players move by flicking a triangle on a device that vaguely resembles an RPM gauge. Players who get boosted get to flick an additional boost gauge, while players who are slowed down need to flick an additional drag gauge.</p>
 
-<div class="idea-image">
-<img src="idea-images/marble-racers.png">
-</div>
-<p class="small-text">Roll as fast as you can.</p>
-<p class="text">Control a marble and get through the obstacle course as fast as you can. Compete with other players in the same race and try to get first place! Levels consist of floating tracks in a variety of environments. The above image takes place in the sky.</p>
+// <div class="idea-image">
+// <img src="idea-images/marble-racers.png">
+// </div>
+// <p class="small-text">Roll as fast as you can.</p>
+// <p class="text">Control a marble and get through the obstacle course as fast as you can. Compete with other players in the same race and try to get first place! Levels consist of floating tracks in a variety of environments. The above image takes place in the sky.</p>
 
-<div class="idea-image">
-<img src="idea-images/escape.png">
-</div>
-<p class="small-text">Exit before the danger becomes too great.</p>
-<p class="text">Some accident occured at the facility you were visiting, and all that you know now is that you need to run. Each round may have a different path to take than the last one. Different alternative paths will be available randomly for added variety. Different events may occur too. The gameplay is expected to be fast paced with quick rounds.</p>
+// <div class="idea-image">
+// <img src="idea-images/escape.png">
+// </div>
+// <p class="small-text">Exit before the danger becomes too great.</p>
+// <p class="text">Some accident occured at the facility you were visiting, and all that you know now is that you need to run. Each round may have a different path to take than the last one. Different alternative paths will be available randomly for added variety. Different events may occur too. The gameplay is expected to be fast paced with quick rounds.</p>
 
-<div class="idea-image">
-<img src="idea-images/pd.png">
-</div>
-<p class="small-text">Adventure together.</p>
-<p class="text">Play with 2-4 players to accomplish various quests. Environments can take place either inside or outside. Inspired by classic The Legend of Zelda.</p>
+// <div class="idea-image">
+// <img src="idea-images/pd.png">
+// </div>
+// <p class="small-text">Adventure together.</p>
+// <p class="text">Play with 2-4 players to accomplish various quests. Environments can take place either inside or outside. Inspired by classic The Legend of Zelda.</p>
 
-<div class="idea-image">
-<img src="idea-images/4p.png">
-</div>
-<p class="small-text">Learn your stories then get together.</p>
-<p class="text">Each player plays as a character with their own introduction in the game. They'll each play the character's beginning story and levels, and at the end of it the players will run into each other and form a group. Then they begin to share their own story together in the game. They'll get assigned tasks to accomplish around the land (and even out of the land) by a group for some greater cause. This game can be played with 1-4 players. Some of the replayability comes from choosing a different character for each new game.</p>
+// <div class="idea-image">
+// <img src="idea-images/4p.png">
+// </div>
+// <p class="small-text">Learn your stories then get together.</p>
+// <p class="text">Each player plays as a character with their own introduction in the game. They'll each play the character's beginning story and levels, and at the end of it the players will run into each other and form a group. Then they begin to share their own story together in the game. They'll get assigned tasks to accomplish around the land (and even out of the land) by a group for some greater cause. This game can be played with 1-4 players. Some of the replayability comes from choosing a different character for each new game.</p>
 
-<div class="idea-image">
-<img src="idea-images/researcher.png">
-</div>
-<p class="small-text">A dangerous and isolated land.</p>
-<p class="text">You are an intern who was sent off to investigate strange occurrences up in the north. Bizarre and dangerous worm-like creatures have begun appearing there, and scans of the area indicate that unknown devices have shown up too. Set off into a desolate land of ice and water, and discover the truth behind these new events. It's a precarious task someone as new as you, but none of the experienced researchers seem willing to do the job...</p>
-</div>`;
+// <div class="idea-image">
+// <img src="idea-images/researcher.png">
+// </div>
+// <p class="small-text">A dangerous and isolated land.</p>
+// <p class="text">You are an intern who was sent off to investigate strange occurrences up in the north. Bizarre and dangerous worm-like creatures have begun appearing there, and scans of the area indicate that unknown devices have shown up too. Set off into a desolate land of ice and water, and discover the truth behind these new events. It's a precarious task someone as new as you, but none of the experienced researchers seem willing to do the job...</p>
+// </div>`;
 
 let contact = `<div class="header4">
 <h1>Contact</h1>
@@ -346,7 +345,7 @@ This game was made by a team of 4 members (including myself).
 <br>It's a game where 3 players need to outrun and defend themselves from the 1 enemy player. 
 The enemy player has to chase and catch the running players, but the running players can use traps and doors to slow the chasing player down. 
 The buttons are only on one side of the door, so you're able to cut off players who are chasing you.
-<br>The game was networked using Photon Engine. 
+<br>The game was networked using Photon PUN. 
 </p>
 
 <h1>My Contribution</h1>
@@ -382,7 +381,7 @@ This game was made primarily by me, in Unity, with some code contributions by an
     <li>(Light yellow) Impulse Spell: Pushes the hit player back with a strong force.</li>
     <li>(Blue) Speed Spell: Increase the hit player's speed. Use this to make the other player slip off with their gradually increasing speed.</li>
 </ul>
-The game's networking was done by using Photon Engine. 
+The game's networking was done by using Photon PUN. 
 </p>
 
 <h1>My Work</h1>
