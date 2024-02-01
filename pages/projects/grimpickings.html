@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="header2">
+        <h1>Grim Pickings</h1>
+        <p>A digital adaption of a class board game project.</p>
+        </div>
+        
+        <div>
+        <p class="text">
+        Grim Pickings is a board game developed by a team of 14 students. There are groups dedicated to certain aspects of game development, and I am on the tech development team along with 3 other members. Our team is responsible for creating a digital version of the game so that it can be played on a large touchscreen table at Gen Con in Indianapolis. However, we also wanted to do a bit more than that. We looked into experimental technology that could make for an enticing booth at the convention, and we found hand tracking tech from Ultraleap. We ordered a few hand tracking cameras (Leap Motion Controllers) and got to work implementing new tech into our game.</p>
+        
+        <div class="header2"><h2>My Work</h2></div>
+        <p class="text">
+        I had to learn how to use a Leap Motion Controller with Unity. There are not many resources available online on how to use the controller in the way we wanted, so I had to thoroughly examine the official documentation for it and figure out how to read data from it in Unity. Once I got it working, I added a masked render texture to the UI so that players are able to see their own hands as the camera detects them. When the player needs to roll the dice, they can do a hand gesture to roll. When the player digs up a card from one of the card spots, they can do a hand gesture to pull the card into their inventory.
+        </p>
+        <p class="text">I also added functionality for the player to pick up parts. It is not implemented into the main game yet, but in one of the videos below, you can see it working in a test scene. The button runs a function to pick a random part from a list of body parts and adds the associated image and stats onto the player. Body parts that are replaced have their stats replaced as well by the new part.</p>
+        
+        <p class="text">The scripting for the game isn't publicly available, but I can show a snippet of simple code that reads and uses hand tracking data.
+        <div class="general-image"><img src="images/hand-motion-code-example.png"></div>
+        </p>
+        
+        <div class="header2"><h2>Showcase (Hand Tracking)</h2></div>
+        <p class="text">
+        This video shows hand tracking functionality as explained above. Players can see their own hands when it is detected by the camera, and they can use hand gestures to roll the dice and to store cards into their inventory. The console in the video shows when hand gestures are being awaited for and when they are detected.
+        <br>(The game in the video is not complete yet, so there are some placeholder assets being used.)
+        </p>
+
+        <div class="youtube-container"><div class="youtube-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/tJWRqrfRKTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+        
+        <div class="header2"><h2>Showcase (Body Picker)</h2></div>
+        <p class="text">
+        This short video shows a test scene for functionality for adding body parts onto the character. When the button is clicked, a random part is selected from a large list of body parts, the player recieves the part, reads what kind of body part is it, then adds it to the appropriate limb and adds up the total stats. 
+        <br>In the console, you can see the name of the body part, where on the body it goes, and the health, attack, and speed stats of that part. 
+        <br>Arms and legs are randomly assigned to either the left or right side.
+        <br>(The official art assets had not been created yet, so placeholder images are used instead.)
+        </p>
+        <div class="youtube-container"><div class="youtube-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/iqGBCC2ivqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+        <div class="header2"><h2>Picture</h2></div>
+        <p class="text">Image of the touchscreen device with the game on it at the convention.</p>
+        <div class="general-image">
+          <img src="images/gp-con.png" alt="large touchscreen displaying a game at a convention center"/>
+        </div>
+        </div>
+  </body>
+</html>

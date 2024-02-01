@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="header2">
+      <h1>Spellgrounds</h1>
+      <p>An online 2-player 1v1 arena battle.</p>
+    </div>
+
+    <div>
+      <p class="text">
+        This game was made primarily by me, in Unity, with some code
+        contributions by another team member.
+        <br />It's a game where two players battle each other with spells to
+        defeat the other player. Players earn points by killing the other player
+        or pushing them off the arena. The first player to 3 points wins.
+        <br />Players can cast 3 different spells.
+      </p>
+      <ul>
+        <li>
+          (Red) Attack Spell: A basic attack. Hit the other player to decrease
+          their HP.
+        </li>
+        <li>
+          (Light yellow) Impulse Spell: Pushes the hit player back with a strong
+          force.
+        </li>
+        <li>
+          (Blue) Speed Spell: Increase the hit player's speed. Use this to make
+          the other player slip off with their gradually increasing speed.
+        </li>
+      </ul>
+      <p class="text">The game's networking was done by using Photon PUN.</p>
+
+      <div class="header2"><h2>My Work</h2></div>
+      <p class="text">
+        I created most of the player controller and the player camera. I also
+        created the spells and their effects on the other player. The items in
+        levels and the menus were made by me as well. The sky level that appears
+        in the video below was created by me. I made my own simple models with
+        Blender and imported them to make a basic arena level.
+      </p>
+
+      <p class="text">
+        The online networking for the game was done by me. Players can join a
+        lobby that shows the rooms that are open to join. When a player makes a
+        room, it appears in the room list. Then, any player is able to click
+        that room and join that player's lobby. Players are also properly
+        designated as the host or client player. Players get to control their
+        own character. They're also able to attack the other player. The scoring
+        system used in game is updated by both players and tells which player
+        won and lost after one of them gets to three points.
+      </p>
+      <p class="text">
+        I am responsible for most of the scripting in the game.
+      </p>
+      <p class="text">
+        I also sourced and added all audio in the game, which includes sounds
+        and music. <br />The music is from
+        <a href="https://incompetech.com/" target="_blank"
+          ><b>incompetech.com</b></a
+        >
+        and the sound effects were taken from
+        <a href="https://freesound.org/" target="_blank"
+          ><b>freesound.org</b></a
+        >
+      </p>
+
+      <p class="text">
+        The scripts I worked on can be found here:
+        <a
+          href="https://github.com/mmarckwo/N330SpellgroundsReal/tree/main/Assets/script"
+          target="_blank"
+        >
+          <b
+            >https://github.com/mmarckwo/N330SpellgroundsReal/tree/main/Assets/script</b
+          >
+        </a>
+      </p>
+
+      <div class="header2"><h2>Showcase</h2></div>
+      <p class="text">
+        Side-by-side gameplay footage of one player battling another player.
+        This was recorded on two separate computers and then they had their
+        recordings merged into one video.
+        <br />(Audio comes from player on the right.)
+      </p>
+      <div class="youtube-container">
+        <div class="youtube-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/2YU_X8NuFX8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
