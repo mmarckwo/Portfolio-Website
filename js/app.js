@@ -1,3 +1,5 @@
+import * as animator from "/js/animator.js";
+
 function init() {
   $(window).on("hashchange", changeRoute);
   changeRoute();
@@ -9,7 +11,7 @@ function changeRoute() {
 
   // empty anchor leads to home page, else check for valid page.
   if (pageID == "") {
-    changePage(pageID);
+    changePage(pageID, animationListeners);
   } else if (
     pageID == "projects" ||
     pageID == "contact" ||
@@ -27,8 +29,18 @@ function changeRoute() {
   } else {
     // invalid page redirects to home instead.
     window.location.hash = "";
-    changePage("");
+    changePage("", animationListeners);
   }
+}
+
+function animationListeners() {
+  $(".icon-image").on("mouseenter", function (e) {
+    animator.highlight(e);
+  });
+
+  $(".icon-image").on("mouseleave", function (e) {
+    animator.unhighlight(e);
+  });
 }
 
 function changePage(pageID, callback) {
