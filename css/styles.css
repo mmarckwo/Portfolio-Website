@@ -34,6 +34,18 @@ h1 {
   text-overflow: ellipsis;
 }
 
+.text a:visited {
+  color: #b82cb7;
+}
+
+.text a:hover {
+  color: red;
+}
+
+.text a:active {
+  color: darkred;
+}
+
 .text a.newlineIgnore {
   display: inline;
 }
@@ -56,6 +68,10 @@ ul {
   border-radius: 2px;
   padding: 0.5em;
   width: fit-content;
+}
+
+.img-caption {
+  margin: 0 auto;
 }
 
 a {
@@ -85,7 +101,6 @@ a {
 }
 
 .top-bar h1 {
-  /* background-color: blue; */
   color: white;
   align-self: center;
   margin-right: 0.5em;
@@ -95,11 +110,6 @@ a {
   max-width: fit-content;
   padding-right: 10em;
   display: flex;
-  /* justify-content: space-between; */
-  /* border-bottom: black solid 0.15em; */
-  /* margin-top: 1.5em; */
-  /* margin-bottom: 1em; */
-  /* background-color: greenyellow; */
 }
 
 .header2 {
@@ -185,9 +195,7 @@ a {
 }
 
 .main nav .links a {
-  /* border-radius: 20px; */
   text-decoration: none;
-  /* background-color: rgb(160, 160, 160); */
   border-right: solid rgb(50, 50, 50) 2px;
   color: white;
   margin: 2px;
@@ -202,20 +210,10 @@ a {
 .main nav .links a:hover {
   color: #d3f31d;
   font-weight: lighter;
-  /* text-decoration: none;
-  background-color: rgb(125, 125, 125);
-  margin: 2px;
-  padding: 20px; */
 }
 
 .main nav .links a:active {
   font-weight: bold;
-
-  /* text-decoration: none;
-  background-color: rgb(90, 90, 90);
-  color: white;
-  margin: 2px;
-  padding: 20px; */
 }
 
 .image {
@@ -225,22 +223,8 @@ a {
 .map-image {
   max-width: 896px;
   max-height: 505px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.idea-image {
-  max-width: 1103px;
-  max-height: 575px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.idea-image img {
-  border-radius: 15px;
-  width: 100%;
-  max-height: 100%;
-  object-fit: cover;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .map-image img {
@@ -288,6 +272,8 @@ a {
 .other-image {
   max-width: 898px;
   max-height: 505px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .other-image img {
@@ -381,7 +367,6 @@ font-family: "Overpass", sans-serif; */
 /* change positioning of elements in top-bar */
 @media only screen and (max-width: 1200px) {
   .top-bar {
-    /* background-color: red; */
     flex-direction: column;
     align-items: center;
   }
