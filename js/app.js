@@ -1,4 +1,4 @@
-// import * as animator from "/js/animator.js";
+import * as animator from "../js/animator.js";
 
 function init() {
   $(window).on("hashchange", changeRoute);
@@ -35,11 +35,11 @@ function changeRoute() {
 
 function animationListeners() {
   $(".icon-image").on("mouseenter", function (e) {
-    // animator.highlight(e);
+    animator.highlight(e);
   });
 
   $(".icon-image").on("mouseleave", function (e) {
-    // animator.unhighlight(e);
+    animator.unhighlight(e);
   });
 }
 
